@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\android\project\ABR_ClientServerRemote-master1\app\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidAccessory\5.05\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fc276dd77600f248e53cc0bbf77a011d87931840">
+        <dex dex="D:\android\project\ABR_ClientServerRemote-master1\app\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroidAccessory-5.05_7c12d80ede3ba01dae4150e6d423f8915af45447.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\li\.gradle\caches\modules-2\files-2.1\com.github.ytai.ioio\IOIOLibCore\5.05\99821d5ab444306c6e39f3de72f85c4b287a6765\IOIOLibCore-5.05.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="99821d5ab444306c6e39f3de72f85c4b287a6765">
+        <dex dex="D:\android\project\ABR_ClientServerRemote-master1\app\build\intermediates\pre-dexed\debug\IOIOLibCore-5.05_00335a912e28d62e01ab048eaacb19d89725c1c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\android\project\ABR_ClientServerRemote-master1\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_ccf1976f2ed10671c81cbe19f136351b0d5865ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\project\ABR_ClientServerRemote-master1\app\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidBluetooth\5.05\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f347dcaafe682fdd3d3131c9d6568065a8cd83ab">
+        <dex dex="D:\android\project\ABR_ClientServerRemote-master1\app\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroidBluetooth-5.05_b6185a18b8ab10a8cdec056433a90d0a18a04957.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\project\ABR_ClientServerRemote-master1\app\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidDevice\5.05\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7eb8cafa44ed70860615af51c83606945c43fe73">
+        <dex dex="D:\android\project\ABR_ClientServerRemote-master1\app\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroidDevice-5.05_26df3bb31129e784fc521ebdcb9ad75854e86b81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\project\ABR_ClientServerRemote-master1\app\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroid\5.05\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c76a0936c82cef3da0770204f51f4914f32f6e08">
+        <dex dex="D:\android\project\ABR_ClientServerRemote-master1\app\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroid-5.05_a0662851d06f4b52189e84e459d2d26c0ac945ab.jar" />
+    </item>
+
+</items>

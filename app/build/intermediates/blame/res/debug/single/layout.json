@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ioio_connection.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\layout\\ioio_connection.xml"
+    },
+    {
+        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_camerasize.xml",
+        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\layout\\dialog_camerasize.xml"
+    },
+    {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_camerasize.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\layout\\dialog_camerasize.xml"
+    },
+    {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ioio_connection.xml",
+        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\layout\\ioio_connection.xml"
+    },
+    {
+        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\controller_connection.xml",
+        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\layout\\controller_connection.xml"
+    },
+    {
+        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\controller.xml",
+        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\layout\\controller.xml"
+    },
+    {
+        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_simple_row.xml",
+        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\layout\\listview_simple_row.xml"
+    },
+    {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ioio.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\layout\\ioio.xml"
+    },
+    {
+        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splashscreen.xml",
+        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\layout\\splashscreen.xml"
+    },
+    {
+        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ioio.xml",
+        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\layout\\ioio.xml"
+    },
+    {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splashscreen.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\layout\\splashscreen.xml"
+    },
+    {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\controller_connection.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\layout\\controller_connection.xml"
+    },
+    {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_simple_row.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\layout\\listview_simple_row.xml"
+    },
+    {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\layout\\controller.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\layout\\controller.xml"
+    }
+]

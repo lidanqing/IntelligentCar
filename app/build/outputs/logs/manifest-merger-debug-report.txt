@@ -1,0 +1,143 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:2:1-52:12
+	package
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:4:5-25
+		INJECTED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:6:5-32
+		INJECTED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:5:5-29
+		INJECTED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:3:5-35
+uses-sdk
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:9:9-34
+		INJECTED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:12:2-64
+MERGED from [com.github.ytai.ioio:IOIOLibAndroid:5.05] D:\android\project\IntelligentCar\app\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroid\5.05\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:12:19-61
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:13:2-76
+	android:name
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:13:19-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:14:2-72
+	android:name
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:14:19-70
+uses-permission#android.permission.CAMERA
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:15:2-62
+	android:name
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:15:19-59
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:16:2-78
+	android:name
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:16:19-75
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:17:2-64
+MERGED from [com.github.ytai.ioio:IOIOLibAndroidBluetooth:5.05] D:\android\project\IntelligentCar\app\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidBluetooth\5.05\AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:17:19-62
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:18:2-70
+	android:name
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:18:19-68
+application
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:20:5-51:19
+	android:label
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:22:9-41
+	android:allowBackup
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:24:9-35
+	android:icon
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:21:9-45
+	android:theme
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:23:9-40
+uses-library#com.android.future.usb.accessory
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:26:13-60
+activity#abr.teleop.Main
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:28:9-42:20
+	android:screenOrientation
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:30:13-50
+	android:name
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:29:13-32
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:31:13-34:29
+action#android.intent.action.MAIN
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:33:27-74
+intent-filter#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:35:13-38:29
+action#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:36:17-37:89
+	android:name
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:37:21-86
+meta-data#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:39:13-41:60
+	android:resource
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:41:17-57
+	android:name
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:40:17-82
+activity#abr.teleop.Controller
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:43:9-44:53
+	android:screenOrientation
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:44:13-50
+	android:name
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:43:19-44
+activity#abr.teleop.ControllerConnection
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:45:9-46:53
+	android:screenOrientation
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:46:13-50
+	android:name
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:45:19-54
+activity#abr.teleop.IOIOu
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:47:9-48:53
+	android:screenOrientation
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:48:13-50
+	android:name
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:47:19-39
+activity#abr.teleop.IOIOConnection
+ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:49:9-50:53
+	android:screenOrientation
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:50:13-50
+	android:name
+		ADDED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:49:19-48
+android:uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:2:1-52:12 reason: ioio.lib.bluetooth has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from D:\android\project\IntelligentCar\app\src\main\AndroidManifest.xml:2:1-52:12 reason: ioio.lib.bluetooth requested WRITE_EXTERNAL_STORAGE
+uses-feature#android.hardware.usb.accessory
+ADDED from [com.github.ytai.ioio:IOIOLibAndroidAccessory:5.05] D:\android\project\IntelligentCar\app\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidAccessory\5.05\AndroidManifest.xml:7:5-9:36
+	android:required
+		ADDED from [com.github.ytai.ioio:IOIOLibAndroidAccessory:5.05] D:\android\project\IntelligentCar\app\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidAccessory\5.05\AndroidManifest.xml:9:9-33
+	android:name
+		ADDED from [com.github.ytai.ioio:IOIOLibAndroidAccessory:5.05] D:\android\project\IntelligentCar\app\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidAccessory\5.05\AndroidManifest.xml:8:9-54
+uses-feature#android.hardware.usb.host
+ADDED from [com.github.ytai.ioio:IOIOLibAndroidDevice:5.05] D:\android\project\IntelligentCar\app\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidDevice\5.05\AndroidManifest.xml:7:5-9:36
+	android:required
+		ADDED from [com.github.ytai.ioio:IOIOLibAndroidDevice:5.05] D:\android\project\IntelligentCar\app\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidDevice\5.05\AndroidManifest.xml:9:9-33
+	android:name
+		ADDED from [com.github.ytai.ioio:IOIOLibAndroidDevice:5.05] D:\android\project\IntelligentCar\app\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidDevice\5.05\AndroidManifest.xml:8:9-49

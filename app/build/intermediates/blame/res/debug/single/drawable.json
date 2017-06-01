@@ -48,6 +48,10 @@
         "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_login_normal.png"
     },
     {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
         "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_upright.xml",
         "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_upright.xml"
     },
@@ -126,6 +130,10 @@
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_mode_ioio_normal.png",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_mode_ioio_normal.png"
+    },
+    {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_stripe_bg.png",
@@ -300,6 +308,10 @@
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\spinner_background.xml"
     },
     {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
         "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_upright_normal.png",
         "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_upright_normal.png"
     },
@@ -384,6 +396,10 @@
         "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_snap.xml"
     },
     {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
         "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_focus.xml",
         "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_focus.xml"
     },
@@ -424,8 +440,16 @@
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\control_edittext.png"
     },
     {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
         "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_stripe_bg.png",
         "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\seekbar_stripe_bg.png"
+    },
+    {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_snap_normal.png",
@@ -488,6 +512,10 @@
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_login_normal.png"
     },
     {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_login.xml",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_login.xml"
     },
@@ -502,6 +530,10 @@
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_mode_control_normal.png",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_mode_control_normal.png"
+    },
+    {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
     },
     {
         "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_start_pressed.png",

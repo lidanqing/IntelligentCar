@@ -16,6 +16,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.io.OutputStreamWriter;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.net.Socket;
@@ -111,6 +112,12 @@ public class IOIOu extends Activity implements Callback, PreviewCallback, Pictur
 	int[] rgbs;
 	boolean initialed = false;
 
+	String wendu = "19";
+	String tempra = "t" + wendu;
+
+	String shidu = "31";
+	String humidity = "h" + shidu;
+
 	private final IOIOAndroidApplicationHelper helper_ = new IOIOAndroidApplicationHelper(this, this);
 	ToggleButton toggleButton_;
 
@@ -161,45 +168,6 @@ public class IOIOu extends Activity implements Callback, PreviewCallback, Pictur
 		});
 
 		om = new OrientationManager(this);
-
-		/*Looper loop = new Looper();
-		try {
-			loop.setup();
-		} catch (ConnectionLostException e) {
-			e.printStackTrace();
-		}*/
-
-		/*Timer timer = new Timer();
-		timer.schedule(new TimerTask() {
-			@Override
-			public void run() {
-				if(pwm_speed > MAX_PWM) pwm_speed = MAX_PWM;
-				else if(pwm_speed < MIN_PWM) pwm_speed = MIN_PWM;
-
-				if(pwm_steering > MAX_PWM) pwm_steering = MAX_PWM;
-				else if(pwm_steering < MIN_PWM) pwm_steering = MIN_PWM;
-
-				if(pwm_pan > MAX_PWM) pwm_pan = MAX_PWM;
-				else if(pwm_pan < MIN_PWM) pwm_pan = MIN_PWM;
-
-				if(pwm_tilt > MAX_PWM) pwm_tilt = MAX_PWM;
-				else if(pwm_tilt < MIN_PWM) pwm_tilt = MIN_PWM;
-
-				Log.e("IOIO", "pwm_left_motor: " + pwm_speed + " pwm_right_motor: " + pwm_steering+ " pwm_pan: " + pwm_pan+ " pwm_tilt: " + pwm_tilt);
-
-				try {
-					speed.setPulseWidth(pwm_speed);
-					steering.setPulseWidth(pwm_steering);
-					pan.setPulseWidth(pwm_pan);
-					tilt.setPulseWidth(pwm_tilt);
-				} catch (ConnectionLostException e) {
-					e.printStackTrace();
-				}
-
-			}
-		},1000,20);*/
-
-
 	}
 
 	public void enableUi(final boolean enable)
@@ -207,7 +175,6 @@ public class IOIOu extends Activity implements Callback, PreviewCallback, Pictur
 		runOnUiThread(new Runnable() {
 			@Override
 			public void run() {
-				//seekBar_.setEnabled(enable);
 				toggleButton_.setEnabled(enable);
 			}
 		});
@@ -291,25 +258,53 @@ public class IOIOu extends Activity implements Callback, PreviewCallback, Pictur
 			{
 				pwm_speed = msg.arg1;
 				pwm_steering = msg.arg2;
-
+				txtspeed_motor.setText("speed:" + String.valueOf(pwm_speed) + "steering:" + String.valueOf(pwm_steering)
+						+ "pan:" + String.valueOf(pwm_pan) + "tilt:" + String.valueOf(pwm_tilt));
 				//Log.e("IOIO", "pwm_speed: " + pwm_speed + " pwm_steering: " + pwm_steering);
 			}
 			else if(command == IOIOService.MESSAGE_STOP)
 			{
 				pwm_speed = 1500;
 				pwm_steering = 1500;
-				txtspeed_motor.setText("speed_motor " + String.valueOf(pwm_speed));
+				txtspeed_motor.setText("speed:" + String.valueOf(pwm_speed) + "steering:" + String.valueOf(pwm_steering)
+				+ "pan:" + String.valueOf(pwm_pan) + "tilt:" + String.valueOf(pwm_tilt));
 			}
 			else if(command == IOIOService.MESSAGE_PT_MOVE)
 			{
 				pwm_pan = msg.arg1;
 				pwm_tilt = msg.arg2;
+				txtspeed_motor.setText("speed:" + String.valueOf(pwm_speed) + "steering:" + String.valueOf(pwm_steering)
+						+ "pan:" + String.valueOf(pwm_pan) + "tilt:" + String.valueOf(pwm_tilt));
 				//Log.e("IOIO", "pwm_pan: " + pwm_pan + " pwm_tilt: " + pwm_tilt);
 			}
 			else if(command == IOIOService.MESSAGE_PT_STOP)
 			{
 				pwm_pan = 1500;
 				pwm_tilt = 1500;
+				txtspeed_motor.setText("speed:" + String.valueOf(pwm_speed) + "steering:" + String.valueOf(pwm_steering)
+						+ "pan:" + String.valueOf(pwm_pan) + "tilt:" + String.valueOf(pwm_tilt));
+			}
+			else if(command == IOIOService.MESSAGE_TEMPERA)
+			{
+				try {
+					out = ((Socket)msg.obj).getOutputStream();
+					dos = new DataOutputStream(out);
+					sendString(tempra);
+					Log.e(TAG_IOIO, "Tempera");
+				} catch (IOException e) {
+					Log.e(TAG_IOIO, e.toString());
+				}
+			}
+			else if(command == IOIOService.MESSAGE_HUMIDITY)
+			{
+				try {
+					out = ((Socket)msg.obj).getOutputStream();
+					dos = new DataOutputStream(out);
+					sendString(humidity);
+					Log.e(TAG_IOIO, "Humidity");
+				} catch (IOException e) {
+					Log.e(TAG_IOIO, e.toString());
+				}
 			}
 		}
 	};
@@ -533,6 +528,21 @@ public class IOIOu extends Activity implements Callback, PreviewCallback, Pictur
 			Log.e(TAG_IOIO, e.toString());
 		}
 	}
+
+	/*public void sendZg(String str) {
+		try {
+			//dos.writeInt(str.length());
+			//dos.write(str.getBytes());
+			zg.write(str);
+			out.flush();
+			zg.close();
+		} catch (IOException e) {
+			Log.e(TAG_IOIO, e.toString());
+			connect_state = false;
+		} catch (NullPointerException e) {
+			Log.e(TAG_IOIO, e.toString());
+		}
+	}*/
 
 	public String getIP() {
 		WifiManager wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);

@@ -24,4 +24,11 @@ dependencies {
     compile 'com.github.ytai.ioio:IOIOLibAndroidBluetooth:5.05'
     compile 'com.github.ytai.ioio:IOIOLibAndroidAccessory:5.05'
     compile 'com.github.ytai.ioio:IOIOLibAndroidDevice:5.05'
+    compile files('src/main/libs/gson-2.3.1.jar')
+    compile files('src/main/libs/hcicloud-5.0.jar')
+    compile files('src/main/libs/hcicloud_player-5.0.jar')
+    compile files('src/main/libs/hcicloud_recorder-5.0.jar')
+    compile files('src/main/libs/json-lib-2.4-jdk15.jar')
+    compile files('src/main/libs/commons-httpclient-3.1.jar')
+    compile files('src/main/libs/commons-lang-2.4.jar')
 }

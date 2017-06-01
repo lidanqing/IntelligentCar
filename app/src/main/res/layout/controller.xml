@@ -66,4 +66,24 @@
         android:background="@drawable/image_button_bg" >
     </RelativeLayout>
 
+    <Button
+        android:text="温度"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_alignBottom="@+id/linearLayout1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"/>
+
+    <Button
+        android:text="湿度"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout1"
+        android:layout_alignRight="@+id/layout_joystick"
+        android:layout_alignEnd="@+id/layout_joystick"
+        android:id="@+id/button3" />
+
 </RelativeLayout>

@@ -2,10 +2,12 @@ package abr.teleop;
 
 import java.io.BufferedWriter;
 import java.io.DataInputStream;
+import java.io.DataOutputStream;
 import java.io.EOFException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InterruptedIOException;
+import java.io.PrintWriter;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetSocketAddress;
@@ -34,6 +36,8 @@ public class IOIOService extends AsyncTask<Void, Void, Void> {
 	public static final int MESSAGE_FLASH = 6;
 	public static final int MESSAGE_SNAP = 7;
 	public static final int MESSAGE_FOCUS = 8;
+	public static final int MESSAGE_TEMPERA = 9;
+	public static final int MESSAGE_HUMIDITY = 12;
 
 	public static final int MESSAGE_STOP = 10;
 	public static final int MESSAGE_MOVE = 11;
@@ -55,6 +59,9 @@ public class IOIOService extends AsyncTask<Void, Void, Void> {
 	DataInputStream dis;
 	InputStream in ;
 	Handler mHandler;
+
+	String send = "miaomaio'''''''''''''''''''''''''''";
+	PrintWriter back;
 
 	public IOIOService(Context context, Handler handler, String password) {
 		mContext = context;
@@ -143,6 +150,9 @@ public class IOIOService extends AsyncTask<Void, Void, Void> {
 
 			if(TASK_STATE) {
 				in = s.getInputStream();
+
+				//back = new PrintWriter(s.getOutputStream(), true);
+
 				dis = new DataInputStream(in);
 				int size = dis.readInt();
 				buff = new byte[size];
@@ -167,13 +177,20 @@ public class IOIOService extends AsyncTask<Void, Void, Void> {
 				dis.readFully(buff);
 				String data = new String(buff);
 
+				//back.println(send);
+
 				if(data.equals("Snap")) {
 					mHandler.obtainMessage(MESSAGE_SNAP).sendToTarget();
 				} else if(data.equals("LEDON") || data.equals("LEDOFF")) {
 					mHandler.obtainMessage(MESSAGE_FLASH, data).sendToTarget();
 				} else if(data.equals("Focus")) {
 					mHandler.obtainMessage(MESSAGE_FOCUS).sendToTarget();
-				} 
+				} else if(data.equals("temperature")) {
+					mHandler.obtainMessage(MESSAGE_TEMPERA ,s).sendToTarget();
+				}
+				else if(data.equals("humidity")) {
+					mHandler.obtainMessage(MESSAGE_HUMIDITY ,s).sendToTarget();
+				}
 			} catch (EOFException e) { 
 				Log.w(TAG, e.toString());
 				mHandler.obtainMessage(MESSAGE_CLOSE).sendToTarget();

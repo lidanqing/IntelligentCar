@@ -105,11 +105,18 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 17 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="IOIOLibCore-5.05" level="project" />
     <orderEntry type="library" exported="" name="support-v4-18.0.0" level="project" />
+    <orderEntry type="library" exported="" name="gson-2.3.1" level="project" />
+    <orderEntry type="library" exported="" name="json-lib-2.4-jdk15" level="project" />
+    <orderEntry type="library" exported="" name="hcicloud_recorder-5.0" level="project" />
+    <orderEntry type="library" exported="" name="IOIOLibCore-5.05" level="project" />
+    <orderEntry type="library" exported="" name="hcicloud-5.0" level="project" />
+    <orderEntry type="library" exported="" name="hcicloud_player-5.0" level="project" />
     <orderEntry type="library" exported="" name="IOIOLibAndroid-5.05" level="project" />
+    <orderEntry type="library" exported="" name="commons-lang-2.4" level="project" />
     <orderEntry type="library" exported="" name="IOIOLibAndroidDevice-5.05" level="project" />
     <orderEntry type="library" exported="" name="IOIOLibAndroidBluetooth-5.05" level="project" />
+    <orderEntry type="library" exported="" name="commons-httpclient-3.1" level="project" />
     <orderEntry type="library" exported="" name="IOIOLibAndroidAccessory-5.05" level="project" />
   </component>
 </module>

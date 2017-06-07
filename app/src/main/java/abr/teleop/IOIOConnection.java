@@ -52,7 +52,7 @@ public class IOIOConnection extends Activity {
     	if(android.os.Build.VERSION.SDK_INT < android.os.Build.VERSION_CODES.GINGERBREAD) {
 	    	mCamera = Camera.open();
     	} else if(android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.GINGERBREAD) {
-	    	mCamera = Camera.open(0);
+ 	    	mCamera = Camera.open(0);
     	}
 	    
 	    Camera.Parameters params = mCamera.getParameters();

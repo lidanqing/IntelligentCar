@@ -1,13 +1,5 @@
 [
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\accessory_filter.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\xml\\accessory_filter.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\device_filter.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\exploded-aar\\com.github.ytai.ioio\\IOIOLibAndroidDevice\\5.05\\res\\xml\\device_filter.xml"
-    },
-    {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\xml\\device_filter.xml",
         "source": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\exploded-aar\\com.github.ytai.ioio\\IOIOLibAndroidDevice\\5.05\\res\\xml\\device_filter.xml"
     },

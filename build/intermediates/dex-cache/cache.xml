@@ -3,39 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="D:\android\project\IntelligentCar\app\src\main\libs\hcicloud-5.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="afbbd1e8757c95c89a495c3446da4c77524100eb">
-        <dex dex="D:\android\project\IntelligentCar\app\build\intermediates\pre-dexed\debug\hcicloud-5.0_784741034c9a8ac583939eed16cf0ad6268e0b82.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="D:\android\project\IntelligentCar\app\src\main\libs\gson-2.3.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
         <dex dex="D:\android\project\IntelligentCar\app\build\intermediates\pre-dexed\debug\gson-2.3.1_cb2614462e0bc2d3ec66a0e271bf8394db32c4dd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\android\project\IntelligentCar\app\src\main\libs\hcicloud_player-5.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ec084a99b5b5d5ae17befa9fa19be096d6756c75">
-        <dex dex="D:\android\project\IntelligentCar\app\build\intermediates\pre-dexed\debug\hcicloud_player-5.0_54005088607ca69a5a6e62859af20ab01cd379df.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\android\project\IntelligentCar\app\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidDevice\5.05\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7eb8cafa44ed70860615af51c83606945c43fe73">
-        <dex dex="D:\android\project\IntelligentCar\app\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroidDevice-5.05_121ef003730c5e39c084f569138cb33f6c840aac.jar" />
     </item>
     <item
         is-multidex="false"
@@ -57,21 +30,66 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\android\project\IntelligentCar\app\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidBluetooth\5.05\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f347dcaafe682fdd3d3131c9d6568065a8cd83ab">
-        <dex dex="D:\android\project\IntelligentCar\app\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroidBluetooth-5.05_507b9508285694474187ba2431e0973c9f5fa1da.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="D:\android\project\IntelligentCar\app\src\main\libs\commons-lang-2.4.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="16313e02a793435009f1e458fa4af5d879f6fb11">
         <dex dex="D:\android\project\IntelligentCar\app\build\intermediates\pre-dexed\debug\commons-lang-2.4_f55c45f0664db2e89e8f722cb0199fabdb374c0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\project\IntelligentCar\app\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroid\5.05\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c76a0936c82cef3da0770204f51f4914f32f6e08">
+        <dex dex="D:\android\project\IntelligentCar\app\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroid-5.05_56a2894481dec11b270c7e6446fe0cf2ed2a918c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\project\IntelligentCar\app\build\intermediates\exploded-aar\IntelligentCar\openCVLibrary249\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7d18dc1afc3dc74e972c1941681e0b10746d3ad5">
+        <dex dex="D:\android\project\IntelligentCar\app\build\intermediates\pre-dexed\debug\IntelligentCar-openCVLibrary249-unspecified_1fa04ecf021fc879f8df35473c9b4212c0767172.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\project\IntelligentCar\app\src\main\libs\hcicloud-5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="afbbd1e8757c95c89a495c3446da4c77524100eb">
+        <dex dex="D:\android\project\IntelligentCar\app\build\intermediates\pre-dexed\debug\hcicloud-5.0_784741034c9a8ac583939eed16cf0ad6268e0b82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\project\IntelligentCar\app\src\main\libs\hcicloud_player-5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec084a99b5b5d5ae17befa9fa19be096d6756c75">
+        <dex dex="D:\android\project\IntelligentCar\app\build\intermediates\pre-dexed\debug\hcicloud_player-5.0_54005088607ca69a5a6e62859af20ab01cd379df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\project\IntelligentCar\app\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidDevice\5.05\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7eb8cafa44ed70860615af51c83606945c43fe73">
+        <dex dex="D:\android\project\IntelligentCar\app\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroidDevice-5.05_121ef003730c5e39c084f569138cb33f6c840aac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android\project\IntelligentCar\app\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidBluetooth\5.05\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f347dcaafe682fdd3d3131c9d6568065a8cd83ab">
+        <dex dex="D:\android\project\IntelligentCar\app\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroidBluetooth-5.05_507b9508285694474187ba2431e0973c9f5fa1da.jar" />
     </item>
     <item
         is-multidex="false"
@@ -90,15 +108,6 @@
         revision="25.0.2"
         sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
         <dex dex="D:\android\project\IntelligentCar\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_ccf1976f2ed10671c81cbe19f136351b0d5865ab.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\android\project\IntelligentCar\app\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroid\5.05\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c76a0936c82cef3da0770204f51f4914f32f6e08">
-        <dex dex="D:\android\project\IntelligentCar\app\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroid-5.05_56a2894481dec11b270c7e6446fe0cf2ed2a918c.jar" />
     </item>
     <item
         is-multidex="false"

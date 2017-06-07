@@ -31,4 +31,5 @@ dependencies {
     compile files('src/main/libs/json-lib-2.4-jdk15.jar')
     compile files('src/main/libs/commons-httpclient-3.1.jar')
     compile files('src/main/libs/commons-lang-2.4.jar')
+    compile project(path: ':openCVLibrary249')
 }

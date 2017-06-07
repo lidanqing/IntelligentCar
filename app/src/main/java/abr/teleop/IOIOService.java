@@ -38,6 +38,7 @@ public class IOIOService extends AsyncTask<Void, Void, Void> {
 	public static final int MESSAGE_FOCUS = 8;
 	public static final int MESSAGE_TEMPERA = 9;
 	public static final int MESSAGE_HUMIDITY = 12;
+	public static final int MESSAGE_AUTO = 13;
 
 	public static final int MESSAGE_STOP = 10;
 	public static final int MESSAGE_MOVE = 11;
@@ -190,6 +191,10 @@ public class IOIOService extends AsyncTask<Void, Void, Void> {
 				}
 				else if(data.equals("humidity")) {
 					mHandler.obtainMessage(MESSAGE_HUMIDITY ,s).sendToTarget();
+				}
+				else if(data.equals("Auto")) {
+					Log.e(TAG,"Auto3");
+					mHandler.obtainMessage(MESSAGE_AUTO ,s).sendToTarget();
 				}
 			} catch (EOFException e) { 
 				Log.w(TAG, e.toString());

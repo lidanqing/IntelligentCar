@@ -1,9 +1,5 @@
 [
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\menu\\main.xml"
-    },
-    {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\menu\\main.xml"
     }

@@ -44,6 +44,7 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceHolder.Callback;
 import android.view.View.OnClickListener;
@@ -60,7 +61,20 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
-public class IOIOu extends Activity implements Callback, PreviewCallback, PictureCallback,IOIOLooperProvider{
+import org.opencv.android.BaseLoaderCallback;
+import org.opencv.android.CameraBridgeViewBase;
+import org.opencv.android.LoaderCallbackInterface;
+import org.opencv.android.OpenCVLoader;
+import org.opencv.core.Core;
+import org.opencv.core.CvType;
+import org.opencv.core.Mat;
+import org.opencv.core.MatOfPoint;
+import org.opencv.core.Rect;
+import org.opencv.core.Scalar;
+import org.opencv.core.Size;
+import org.opencv.imgproc.Imgproc;
+
+public class IOIOu extends Activity implements Callback, PreviewCallback, PictureCallback,IOIOLooperProvider/*,CameraBridgeViewBase.CvCameraViewListener2*/ {
 	private static final String TAG_IOIO = "CameraRobot-IOIO";
 	private static final String TAG_CAMERA = "CameraRobot-Camera";
 
@@ -85,6 +99,7 @@ public class IOIOu extends Activity implements Callback, PreviewCallback, Pictur
 	TextView txtspeed_motor, txtIP;
 	Button buttonUp, buttonUpLeft, buttonUpRight, buttonDown
 			, buttonDownLeft, buttonDownRight, buttonRight, buttonLeft;
+	String TAG = "IOIOu";
 
 	int speed_motor = 0;
 	static int pwm_pan, pwm_tilt;
@@ -120,7 +135,6 @@ public class IOIOu extends Activity implements Callback, PreviewCallback, Pictur
 
 	private final IOIOAndroidApplicationHelper helper_ = new IOIOAndroidApplicationHelper(this, this);
 	ToggleButton toggleButton_;
-
 
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -305,6 +319,15 @@ public class IOIOu extends Activity implements Callback, PreviewCallback, Pictur
 				} catch (IOException e) {
 					Log.e(TAG_IOIO, e.toString());
 				}
+			}
+			else if(command == IOIOService.MESSAGE_AUTO) {
+				Toast.makeText(getApplicationContext()
+						, "AUTO"
+						, Toast.LENGTH_SHORT).show();
+				//ioio.killTask();
+				Log.e(TAG,"Auto2");
+				Intent intent = new Intent(getApplicationContext(),Main_activity.class);
+				startActivity(intent);
 			}
 		}
 	};
@@ -741,4 +764,254 @@ public class IOIOu extends Activity implements Callback, PreviewCallback, Pictur
 			helper_.restart();
 		}
 	}
+
+	/*private BaseLoaderCallback mLoaderCallback = new BaseLoaderCallback(this) {
+		@Override
+		public void onManagerConnected(int status) {
+			switch (status) {
+				case LoaderCallbackInterface.SUCCESS:
+				{
+					Log.i(TAG, "OpenCV loaded successfully");
+					//mOpenCvCameraView.enableView();
+					//mOpenCvCameraView.setOnTouchListener(Main_activity.this);
+				} break;
+				default:
+				{
+					super.onManagerConnected(status);
+				} break;
+			}
+		}
+	};
+
+	@Override
+	public void onResume() {
+		OpenCVLoader.initAsync(OpenCVLoader.OPENCV_VERSION_2_4_9, this, mLoaderCallback);
+		super.onResume();
+
+	}
+
+
+
+	public void onCameraViewStarted(int width, int height) {
+		Log.e(TAG,"22222222222222");//摄像头启动方法
+		mRgba = new Mat(height, width, CvType.CV_8UC4);
+		//定义一幅图像，设置为4通道8位无符号型
+		mDetector = new ColorBlobDetector();
+		mSpectrum = new Mat();
+		mBlobColorRgba = new Scalar(255);
+		//定义一个单色像素
+		mBlobColorHsv = new Scalar(255);
+		SPECTRUM_SIZE = new Size(200, 64);
+		CONTOUR_COLOR = new Scalar(255, 255, 0, 255);Log.e(TAG,"Successfuly1");
+
+		//mDetector.setHsvColor(new Scalar(7, 196, 144)); //construction paper red
+		//mDetector.setHsvColor(new Scalar(7.015625,255.0,239.3125)); //bucket orange
+		//mDetector.setHsvColor(new Scalar(1.0,244.828125,205)); //box red
+		mDetector.setHsvColor(new Scalar(8.0,195.21875,222.140625)); // ball orange
+		//mDetector.setHsvColor(new Scalar(252.46875,219.15625,90.6875)); // cup red
+		//mDetector.setHsvColor(new Scalar(108.0625,246.59375,170.734375)); //sparx green
+		//mDetectorGreen.setHsvColor(new Scalar(58.09375,218.9375,107.75)); //medium aldrich green
+	}
+
+	public void onCameraViewStopped() {
+		mRgba.release();
+	}
+	//释放摄像头，相机是一个共享资源，所以应该被谨慎管理，这样应用之间才不会发生冲突
+	//所以使用完相机之后应该调用 Camera.release()来释放相机对象。
+	//如果不释放，后续的使用相机请求（其他应用或本应用）都会失败。
+
+	*//*public boolean onTouch(View v, MotionEvent event) {
+		int cols = mRgba.cols();
+		int rows = mRgba.rows();
+
+		int xOffset = (mOpenCvCameraView.getWidth() - cols) / 2;
+		int yOffset = (mOpenCvCameraView.getHeight() - rows) / 2;
+
+		int x = (int)event.getX() - xOffset;
+		int y = (int)event.getY() - yOffset;
+
+		Log.i(TAG, "Touch image coordinates: (" + x + ", " + y + ")");
+
+		if ((x < 0) || (y < 0) || (x > cols) || (y > rows)) return false;
+
+		Rect touchedRect = new Rect();
+
+		touchedRect.x = (x>4) ? x-4 : 0;
+		touchedRect.y = (y>4) ? y-4 : 0;
+
+		touchedRect.width = (x+4 < cols) ? x + 4 - touchedRect.x : cols - touchedRect.x;
+		touchedRect.height = (y+4 < rows) ? y + 4 - touchedRect.y : rows - touchedRect.y;
+
+		Mat touchedRegionRgba = mRgba.submat(touchedRect);
+
+		Mat touchedRegionHsv = new Mat();
+		Imgproc.cvtColor(touchedRegionRgba, touchedRegionHsv, Imgproc.COLOR_RGB2HSV_FULL);
+
+		// Calculate average color of touched region
+		mBlobColorHsv = Core.sumElems(touchedRegionHsv);
+		int pointCount = touchedRect.width*touchedRect.height;
+		for (int i = 0; i < mBlobColorHsv.val.length; i++)
+			mBlobColorHsv.val[i] /= pointCount;
+
+		mBlobColorRgba = converScalarHsv2Rgba(mBlobColorHsv);
+
+		Log.i(TAG, "Touched rgba color: (" + mBlobColorRgba.val[0] + ", " + mBlobColorRgba.val[1] +
+				", " + mBlobColorRgba.val[2] + ", " + mBlobColorRgba.val[3] + ")");
+
+		mDetector.setHsvColor(mBlobColorHsv);
+
+		Imgproc.resize(mDetector.getSpectrum(), mSpectrum, SPECTRUM_SIZE);
+
+		mIsColorSelected = true;
+
+		touchedRegionRgba.release();
+		touchedRegionHsv.release();
+
+		return false; // don't need subsequent touch events
+	}*//*
+
+	private Scalar converScalarHsv2Rgba(Scalar hsvColor) {
+		Mat pointMatRgba = new Mat();
+		Mat pointMatHsv = new Mat(1, 1, CvType.CV_8UC3, hsvColor);
+		Imgproc.cvtColor(pointMatHsv, pointMatRgba, Imgproc.COLOR_HSV2RGB_FULL, 4);
+
+		return new Scalar(pointMatRgba.get(0, 0));
+	}
+
+	public Mat onCameraFrame(CameraBridgeViewBase.CvCameraViewFrame inputFrame) {
+		Log.e(TAG,"1111111111111111111111");
+		mRgba = inputFrame.rgba();
+
+		//setText("sonar1: "+m_ioio_thread.get_sonar1_reading(), sonar1Text);
+		//setText("sonar2: "+m_ioio_thread.get_sonar2_reading(), sonar2Text);
+		//setText("sonar3: "+m_ioio_thread.get_sonar3_reading(), sonar3Text);
+
+		//if (mIsColorSelected) {
+			mDetector.process(mRgba);
+			List<MatOfPoint> contours = mDetector.getContours();
+			Imgproc.drawContours(mRgba, contours, -1, CONTOUR_COLOR);
+
+			Mat colorLabel = mRgba.submat(4, 68, 4, 68);
+			colorLabel.setTo(mBlobColorRgba);
+
+			Mat spectrumLabel = mRgba.submat(4, 4 + mSpectrum.rows(), 70,
+					70 + mSpectrum.cols());
+			mSpectrum.copyTo(spectrumLabel);
+		//}
+
+
+		*//*if (autoMode) { // only move if autoMode is on
+			//adjust pan/tilt
+			double momentX = mDetector.getMomentX();
+			double momentY = mDetector.getMomentY();
+
+			if (mDetector.blobsDetected() == 0) {
+				if (panningRight) {
+					m_ioio_thread.pan(panVal += 30);
+					Log.i(TAG, "左");
+					if (panVal >= 2200)
+						panningRight = false;
+					Log.i(TAG, "0");
+				} else {
+					m_ioio_thread.pan(panVal -= 30);
+					Log.i(TAG, "右");
+					if (panVal <= 600)
+						panningRight = true;
+				}
+				*//**//*
+				if(tiltingUp){
+					m_ioio_thread.tilt(tiltVal+=30);
+					if(tiltVal >= 2000)
+						tiltingUp = false;
+				} else {
+					m_ioio_thread.tilt(tiltVal-=30);
+					if(tiltVal <= 1000)
+						tiltingUp = true;
+				}
+				*//**//*
+			} else {
+				panInc = 40 + (int) Math.exp(.03 * Math.abs(momentX));
+
+				if (momentX > 25) {
+					m_ioio_thread.pan(panVal -= panInc);
+					Log.i(TAG, "momentR");
+				} else if (momentX < -25) {
+					m_ioio_thread.pan(panVal += panInc);
+					Log.i(TAG, "momentL");
+				}
+				tiltInc = 20 + (int) Math.exp(.03 * Math.abs(momentY));
+				if (momentY > 25) {
+					m_ioio_thread.tilt(tiltVal += tiltInc);
+					Log.i(TAG, "momentDOWN");
+				} else if (momentY < -25) {
+					m_ioio_thread.tilt(tiltVal -= tiltInc);
+					Log.i(TAG, "momentUP");
+				}
+			}
+
+			if (panVal > 2200) panVal = 2200;
+			if (panVal < 600) panVal = 600;
+			if (tiltVal > 2000) tiltVal = 2000;
+			if (tiltVal < 1000) tiltVal = 1000;
+
+			//move
+			//handle obstacles
+			int sonar1 = m_ioio_thread.get_sonar1_reading();
+			int sonar2 = m_ioio_thread.get_sonar2_reading();
+			int sonar3 = m_ioio_thread.get_sonar3_reading();
+
+			//if (sonar2 < 30){
+                *//**//*else{
+                    avoidingObstacle = true;
+                }
+            }
+            else if(avoidingObstacle){
+                if(sonar2 < 30){
+                    if(sonar1 > sonar3){
+                        m_ioio_thread.turn(1500-80);
+                    } else {
+                        m_ioio_thread.turn(1500+80);
+                    }
+                } else {
+                    m_ioio_thread.move(1500+forward_speed);
+                }
+                if(sonar1 >= 20 && sonar2 >= 20 && sonar3 >= 20){
+                    avoidingObstacle = false;
+                }
+*//**//*
+			if (*//**//*sonar2 < 20 &&*//**//* mDetector.getMaxArea() > .05 * 4 * mDetector.getCenterX() * mDetector.getCenterY()) {
+				m_ioio_thread.turn(1500);
+				m_ioio_thread.move(1500);
+				Log.i(TAG, "back");
+			}
+			//}
+			//follow blob
+			else {
+				if (mDetector.blobsDetected() > 0) {
+
+
+					if (!(panVal < 1650 && panVal > 1350)) {
+						m_ioio_thread.move(1500 + forward_speed);
+						if (panVal > 1500) {
+							m_ioio_thread.turn(1500 + turn_speed);
+							Log.i(TAG, "left");
+						} else {
+							m_ioio_thread.turn(1500 - turn_speed);
+							Log.i(TAG, "right");
+						}
+					} else {
+						m_ioio_thread.turn(1500);
+						m_ioio_thread.move(1500 + forward_speed);
+					}
+				} else {
+					m_ioio_thread.turn(1500);
+					m_ioio_thread.move(1500);
+				}*//*
+			//}
+
+		//}
+
+
+		return mRgba;
+	}*/
 }

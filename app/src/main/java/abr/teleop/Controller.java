@@ -195,6 +195,14 @@ public class Controller extends Activity{
 	    	}
 	    });
 
+		/*auto = (Button)findViewById(R.id.button4);
+		auto.setOnClickListener(new OnClickListener() {
+			public void onClick(View v) {
+				sendString("Auto");
+				Log.e(TAG,"Auto1");
+			}
+		});*/
+
         cbFlash = (CheckBox)findViewById(R.id.cbFlash);
         cbFlash.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 			public void onCheckedChanged(CompoundButton arg0, boolean arg1) {
@@ -313,7 +321,7 @@ public class Controller extends Activity{
 
 
 		button0 = (Button) findViewById(R.id.button);
-		button1 = (Button) findViewById(R.id.button3);
+		//button1 = (Button) findViewById(R.id.button3);
 
 
 		button0.setOnClickListener(new OnClickListener() {
@@ -322,11 +330,11 @@ public class Controller extends Activity{
 			}
 		});
 
-		button1.setOnClickListener(new OnClickListener() {
+		/*button1.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
 				sendString("humidity");
 			}
-		});
+		});*/
 	}
 
 	public void onPause() {

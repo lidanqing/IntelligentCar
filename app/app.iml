@@ -118,5 +118,6 @@
     <orderEntry type="library" exported="" name="IOIOLibAndroidBluetooth-5.05" level="project" />
     <orderEntry type="library" exported="" name="commons-httpclient-3.1" level="project" />
     <orderEntry type="library" exported="" name="IOIOLibAndroidAccessory-5.05" level="project" />
+    <orderEntry type="module" module-name="openCVLibrary249" exported="" />
   </component>
 </module>

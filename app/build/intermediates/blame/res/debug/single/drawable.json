@@ -1,7 +1,11 @@
 [
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_mode_ioio_normal.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_mode_ioio_normal.png"
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_flash_on_normal.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_flash_on_normal.png"
+    },
+    {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_bg_pressed.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\spinner_bg_pressed.png"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_down.xml",
@@ -12,236 +16,8 @@
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_mode_control.xml"
     },
     {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_bg_pressed.png",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\spinner_bg_pressed.png"
-    },
-    {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_focus.xml",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_focus.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_downleft_pressed.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_downleft_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_progress.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\seekbar_progress.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\inex_logo.jpg",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\inex_logo.jpg"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_right_pressed.png",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_right_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_up_normal.png",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_up_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_flash_on_pressed.png",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_flash_on_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_login_normal.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_login_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_upright.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_upright.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_down_pressed.png",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_down_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_dropdownlist.xml",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\spinner_dropdownlist.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\image_button.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\image_button.png"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_dropdownlist_normal.png",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\spinner_dropdownlist_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_mode_control_pressed.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_mode_control_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_left_normal.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_left_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_bg.9.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\seekbar_bg.9.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_downright_pressed.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_downright_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_start.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_start.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_flash_off_pressed.png",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_flash_off_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_upleft.xml",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_upleft.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_mode_control.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_mode_control.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_upright_pressed.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_upright_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_mode_ioio.xml",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_mode_ioio.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_downleft.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_downleft.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_bg_normal.png",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\spinner_bg_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_cancel.xml",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_cancel.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_flash_off_pressed.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_flash_off_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_mode_ioio_normal.png",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_mode_ioio_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_stripe_bg.png",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\seekbar_stripe_bg.png"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_start_normal.png",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_start_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_flash_on_normal.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_flash_on_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_bg_pressed.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\spinner_bg_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_focus_normal.png",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_focus_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_upleft_normal.png",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_upleft_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_upleft_normal.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_upleft_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_flash_off_normal.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_flash_off_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_mode_control_normal.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_mode_control_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_dropdownlist.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\spinner_dropdownlist.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\inex_logo.jpg",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\inex_logo.jpg"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_mode_ioio_pressed.png",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_mode_ioio_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_focus_pressed.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_focus_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_down_normal.png",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_down_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_right.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_right.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_focus_pressed.png",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_focus_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_upleft.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_upleft.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_login_pressed.png",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_login_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_right_pressed.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_right_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_snap_pressed.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_snap_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_downright_normal.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_downright_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img_divider.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\img_divider.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\center.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\center.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_center.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_center.png"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\image_button_bg.png",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\image_button_bg.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_login_pressed.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_login_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_flash_on_normal.png",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_flash_on_normal.png"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_right.xml",
@@ -256,8 +32,8 @@
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_downleft_normal.png"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_mode_ioio_pressed.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_mode_ioio_pressed.png"
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_right_pressed.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_right_pressed.png"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_up_pressed.png",
@@ -268,12 +44,12 @@
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\dialog_header_ioio.png"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_flash.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_flash.xml"
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_up_normal.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_up_normal.png"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_up_pressed.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_up_pressed.png"
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_flash_on_pressed.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_flash_on_pressed.png"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_left.xml",
@@ -292,40 +68,20 @@
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_left_pressed.png"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_snap_normal.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_snap_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_down_normal.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_down_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\control_edittext.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\control_edittext.png"
-    },
-    {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_background.xml",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\spinner_background.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_upright_normal.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_upright_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_up.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_up.xml"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_upright_pressed.png",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_upright_pressed.png"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_upleft_pressed.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_upleft_pressed.png"
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_down_pressed.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_down_pressed.png"
+    },
+    {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_dropdownlist.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\spinner_dropdownlist.xml"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_center.png",
@@ -344,16 +100,16 @@
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_mode_control_pressed.png"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_dropdownlist_normal.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\spinner_dropdownlist_normal.png"
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_dropdownlist_normal.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\spinner_dropdownlist_normal.png"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_flash.xml",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_flash.xml"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_cancel_normal.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_cancel_normal.png"
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_auto_off.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_auto_off.png"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_upleft_pressed.png",
@@ -364,16 +120,12 @@
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_right_normal.png"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_header_control.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\dialog_header_control.png"
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_flash_off_pressed.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_flash_off_pressed.png"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_up.xml",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_up.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_mode_ioio.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_mode_ioio.xml"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_cancel_normal.png",
@@ -384,48 +136,52 @@
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\image_button.png"
     },
     {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_upleft.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_upleft.xml"
+    },
+    {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_snap_pressed.png",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_snap_pressed.png"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_flash_on_pressed.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_flash_on_pressed.png"
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_mode_ioio.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_mode_ioio.xml"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_snap.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_snap.xml"
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_bg_normal.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\spinner_bg_normal.png"
     },
     {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_focus.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_focus.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_background.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\spinner_background.xml"
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_cancel.xml",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_cancel.xml"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_upright_normal.png",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_upright_normal.png"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_login.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_login.xml"
-    },
-    {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_progress.xml",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\seekbar_progress.xml"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\image_button_bg.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\image_button_bg.png"
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_mode_ioio_normal.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_mode_ioio_normal.png"
+    },
+    {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_start_normal.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_start_normal.png"
+    },
+    {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_stripe_bg.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\seekbar_stripe_bg.png"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_snap.xml",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_snap.xml"
+    },
+    {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_auto_on.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_auto_on.png"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_left_normal.png",
@@ -440,16 +196,12 @@
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\control_edittext.png"
     },
     {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_focus_normal.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_focus_normal.png"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_stripe_bg.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\seekbar_stripe_bg.png"
-    },
-    {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_upleft_normal.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_upleft_normal.png"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_snap_normal.png",
@@ -460,68 +212,44 @@
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\img_divider.png"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_start_normal.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_start_normal.png"
-    },
-    {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\center.png",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\center.png"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_up_normal.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_up_normal.png"
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\inex_logo.jpg",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\inex_logo.jpg"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_focus_normal.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_focus_normal.png"
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_mode_ioio_pressed.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_mode_ioio_pressed.png"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_dropdownlist_pressed.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\spinner_dropdownlist_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_downright.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_downright.xml"
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_down_normal.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_down_normal.png"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_start.xml",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_start.xml"
     },
     {
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_focus_pressed.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_focus_pressed.png"
+    },
+    {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_downright.xml",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_downright.xml"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_left_pressed.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_left_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_down.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_down.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_right_normal.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_right_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_left.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_left.xml"
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_login_pressed.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_login_pressed.png"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_login_normal.png",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_login_normal.png"
     },
     {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
-    },
-    {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_login.xml",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_login.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_cancel_pressed.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_cancel_pressed.png"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_flash_off_normal.png",
@@ -532,44 +260,20 @@
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_mode_control_normal.png"
     },
     {
-        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
-        "source": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_start_pressed.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_start_pressed.png"
-    },
-    {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_downright_normal.png",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\checkbox_downright_normal.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_header_ioio.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\dialog_header_ioio.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_bg_normal.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\spinner_bg_normal.png"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_start_pressed.png",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\button_start_pressed.png"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_down_pressed.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_down_pressed.png"
-    },
-    {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_cancel.xml",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\button_cancel.xml"
-    },
-    {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_dropdownlist_pressed.png",
         "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\spinner_dropdownlist_pressed.png"
     },
     {
-        "merged": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_downleft_normal.png",
-        "source": "D:\\android\\project\\ABR_ClientServerRemote-master1\\app\\src\\main\\res\\drawable\\checkbox_downleft_normal.png"
+        "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\image_button_bg.png",
+        "source": "D:\\android\\project\\IntelligentCar\\app\\src\\main\\res\\drawable\\image_button_bg.png"
     },
     {
         "merged": "D:\\android\\project\\IntelligentCar\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_downleft_pressed.png",

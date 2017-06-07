@@ -16,6 +16,12 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.front" />
+    <uses-feature android:name="android.hardware.camera.front.autofocus" />
 
     <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -63,6 +69,9 @@
             android:screenOrientation="landscape" />
         <activity
             android:name="abr.teleop.IOIOConnection"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="abr.teleop.Main_activity"
             android:screenOrientation="landscape" />
     </application>
 

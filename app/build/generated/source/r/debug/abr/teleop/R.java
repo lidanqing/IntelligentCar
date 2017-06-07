@@ -9,6 +9,32 @@ package abr.teleop;
 
 public final class R {
     public static final class attr {
+        /** <p>May be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>any</code></td><td>-1</td><td></td></tr>
+<tr><td><code>back</code></td><td>99</td><td></td></tr>
+<tr><td><code>front</code></td><td>98</td><td></td></tr>
+</table>
+         */
+        public static final int camera_id=0x7f010001;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int show_fps=0x7f010000;
     }
     public static final class dimen {
         public static final int button_menu_height=0x7f050000;
@@ -37,115 +63,125 @@ public final class R {
         public static final int seekbar_width=0x7f050017;
     }
     public static final class drawable {
-        public static final int button_cancel=0x7f020000;
-        public static final int button_cancel_normal=0x7f020001;
-        public static final int button_cancel_pressed=0x7f020002;
-        public static final int button_focus=0x7f020003;
-        public static final int button_focus_normal=0x7f020004;
-        public static final int button_focus_pressed=0x7f020005;
-        public static final int button_login=0x7f020006;
-        public static final int button_login_normal=0x7f020007;
-        public static final int button_login_pressed=0x7f020008;
-        public static final int button_mode_control=0x7f020009;
-        public static final int button_mode_control_normal=0x7f02000a;
-        public static final int button_mode_control_pressed=0x7f02000b;
-        public static final int button_mode_ioio=0x7f02000c;
-        public static final int button_mode_ioio_normal=0x7f02000d;
-        public static final int button_mode_ioio_pressed=0x7f02000e;
-        public static final int button_snap=0x7f02000f;
-        public static final int button_snap_normal=0x7f020010;
-        public static final int button_snap_pressed=0x7f020011;
-        public static final int button_start=0x7f020012;
-        public static final int button_start_normal=0x7f020013;
-        public static final int button_start_pressed=0x7f020014;
-        public static final int center=0x7f020015;
-        public static final int checkbox_center=0x7f020016;
-        public static final int checkbox_down=0x7f020017;
-        public static final int checkbox_down_normal=0x7f020018;
-        public static final int checkbox_down_pressed=0x7f020019;
-        public static final int checkbox_downleft=0x7f02001a;
-        public static final int checkbox_downleft_normal=0x7f02001b;
-        public static final int checkbox_downleft_pressed=0x7f02001c;
-        public static final int checkbox_downright=0x7f02001d;
-        public static final int checkbox_downright_normal=0x7f02001e;
-        public static final int checkbox_downright_pressed=0x7f02001f;
-        public static final int checkbox_flash=0x7f020020;
-        public static final int checkbox_flash_off_normal=0x7f020021;
-        public static final int checkbox_flash_off_pressed=0x7f020022;
-        public static final int checkbox_flash_on_normal=0x7f020023;
-        public static final int checkbox_flash_on_pressed=0x7f020024;
-        public static final int checkbox_left=0x7f020025;
-        public static final int checkbox_left_normal=0x7f020026;
-        public static final int checkbox_left_pressed=0x7f020027;
-        public static final int checkbox_right=0x7f020028;
-        public static final int checkbox_right_normal=0x7f020029;
-        public static final int checkbox_right_pressed=0x7f02002a;
-        public static final int checkbox_up=0x7f02002b;
-        public static final int checkbox_up_normal=0x7f02002c;
-        public static final int checkbox_up_pressed=0x7f02002d;
-        public static final int checkbox_upleft=0x7f02002e;
-        public static final int checkbox_upleft_normal=0x7f02002f;
-        public static final int checkbox_upleft_pressed=0x7f020030;
-        public static final int checkbox_upright=0x7f020031;
-        public static final int checkbox_upright_normal=0x7f020032;
-        public static final int checkbox_upright_pressed=0x7f020033;
-        public static final int control_edittext=0x7f020034;
-        public static final int dialog_header_control=0x7f020035;
-        public static final int dialog_header_ioio=0x7f020036;
-        public static final int ic_launcher=0x7f020037;
-        public static final int image_button=0x7f020038;
-        public static final int image_button_bg=0x7f020039;
-        public static final int img_divider=0x7f02003a;
-        public static final int inex_logo=0x7f02003b;
-        public static final int seekbar_bg=0x7f02003c;
-        public static final int seekbar_progress=0x7f02003d;
-        public static final int seekbar_stripe_bg=0x7f02003e;
-        public static final int spinner_background=0x7f02003f;
-        public static final int spinner_bg_normal=0x7f020040;
-        public static final int spinner_bg_pressed=0x7f020041;
-        public static final int spinner_dropdownlist=0x7f020042;
-        public static final int spinner_dropdownlist_normal=0x7f020043;
-        public static final int spinner_dropdownlist_pressed=0x7f020044;
+        public static final int button_auto_off=0x7f020000;
+        public static final int button_auto_on=0x7f020001;
+        public static final int button_cancel=0x7f020002;
+        public static final int button_cancel_normal=0x7f020003;
+        public static final int button_cancel_pressed=0x7f020004;
+        public static final int button_focus=0x7f020005;
+        public static final int button_focus_normal=0x7f020006;
+        public static final int button_focus_pressed=0x7f020007;
+        public static final int button_login=0x7f020008;
+        public static final int button_login_normal=0x7f020009;
+        public static final int button_login_pressed=0x7f02000a;
+        public static final int button_mode_control=0x7f02000b;
+        public static final int button_mode_control_normal=0x7f02000c;
+        public static final int button_mode_control_pressed=0x7f02000d;
+        public static final int button_mode_ioio=0x7f02000e;
+        public static final int button_mode_ioio_normal=0x7f02000f;
+        public static final int button_mode_ioio_pressed=0x7f020010;
+        public static final int button_snap=0x7f020011;
+        public static final int button_snap_normal=0x7f020012;
+        public static final int button_snap_pressed=0x7f020013;
+        public static final int button_start=0x7f020014;
+        public static final int button_start_normal=0x7f020015;
+        public static final int button_start_pressed=0x7f020016;
+        public static final int center=0x7f020017;
+        public static final int checkbox_center=0x7f020018;
+        public static final int checkbox_down=0x7f020019;
+        public static final int checkbox_down_normal=0x7f02001a;
+        public static final int checkbox_down_pressed=0x7f02001b;
+        public static final int checkbox_downleft=0x7f02001c;
+        public static final int checkbox_downleft_normal=0x7f02001d;
+        public static final int checkbox_downleft_pressed=0x7f02001e;
+        public static final int checkbox_downright=0x7f02001f;
+        public static final int checkbox_downright_normal=0x7f020020;
+        public static final int checkbox_downright_pressed=0x7f020021;
+        public static final int checkbox_flash=0x7f020022;
+        public static final int checkbox_flash_off_normal=0x7f020023;
+        public static final int checkbox_flash_off_pressed=0x7f020024;
+        public static final int checkbox_flash_on_normal=0x7f020025;
+        public static final int checkbox_flash_on_pressed=0x7f020026;
+        public static final int checkbox_left=0x7f020027;
+        public static final int checkbox_left_normal=0x7f020028;
+        public static final int checkbox_left_pressed=0x7f020029;
+        public static final int checkbox_right=0x7f02002a;
+        public static final int checkbox_right_normal=0x7f02002b;
+        public static final int checkbox_right_pressed=0x7f02002c;
+        public static final int checkbox_up=0x7f02002d;
+        public static final int checkbox_up_normal=0x7f02002e;
+        public static final int checkbox_up_pressed=0x7f02002f;
+        public static final int checkbox_upleft=0x7f020030;
+        public static final int checkbox_upleft_normal=0x7f020031;
+        public static final int checkbox_upleft_pressed=0x7f020032;
+        public static final int checkbox_upright=0x7f020033;
+        public static final int checkbox_upright_normal=0x7f020034;
+        public static final int checkbox_upright_pressed=0x7f020035;
+        public static final int control_edittext=0x7f020036;
+        public static final int dialog_header_control=0x7f020037;
+        public static final int dialog_header_ioio=0x7f020038;
+        public static final int ic_launcher=0x7f020039;
+        public static final int image_button=0x7f02003a;
+        public static final int image_button_bg=0x7f02003b;
+        public static final int img_divider=0x7f02003c;
+        public static final int inex_logo=0x7f02003d;
+        public static final int seekbar_bg=0x7f02003e;
+        public static final int seekbar_progress=0x7f02003f;
+        public static final int seekbar_stripe_bg=0x7f020040;
+        public static final int spinner_background=0x7f020041;
+        public static final int spinner_bg_normal=0x7f020042;
+        public static final int spinner_bg_pressed=0x7f020043;
+        public static final int spinner_dropdownlist=0x7f020044;
+        public static final int spinner_dropdownlist_normal=0x7f020045;
+        public static final int spinner_dropdownlist_pressed=0x7f020046;
     }
     public static final class id {
-        public static final int ToggleButton=0x7f09001b;
-        public static final int barQuality=0x7f09001f;
-        public static final int btnAutoFocus=0x7f090002;
-        public static final int btnController=0x7f090023;
-        public static final int btnIOIO=0x7f090022;
-        public static final int btnPhotoSnap=0x7f090003;
-        public static final int button=0x7f090007;
-        public static final int button3=0x7f090008;
-        public static final int buttonConnect=0x7f09000c;
-        public static final int buttonDown=0x7f090019;
-        public static final int buttonDownLeft=0x7f090018;
-        public static final int buttonDownRight=0x7f09001a;
-        public static final int buttonLeft=0x7f090016;
-        public static final int buttonOK=0x7f090020;
-        public static final int buttonRight=0x7f090017;
-        public static final int buttonSize=0x7f09001c;
-        public static final int buttonUp=0x7f090014;
-        public static final int buttonUpLeft=0x7f090013;
-        public static final int buttonUpRight=0x7f090015;
-        public static final int cbFlash=0x7f090004;
-        public static final int etxtIP=0x7f09000a;
-        public static final int etxtPass=0x7f09000b;
-        public static final int imagePreview=0x7f090012;
-        public static final int imageSplash=0x7f090024;
-        public static final int imageView1=0x7f090000;
-        public static final int layout=0x7f09001d;
-        public static final int layoutPreview=0x7f09000e;
-        public static final int layout_joystick=0x7f090005;
-        public static final int layout_joystick2=0x7f090006;
-        public static final int linearLayout1=0x7f090001;
-        public static final int listSize=0x7f09000d;
-        public static final int menu_settings=0x7f090025;
-        public static final int preview=0x7f09000f;
-        public static final int textView1=0x7f090009;
-        public static final int txt1=0x7f090021;
-        public static final int txtIP=0x7f090010;
-        public static final int txtQuality=0x7f09001e;
-        public static final int txtSpeed=0x7f090011;
+        public static final int ToggleButton=0x7f09001e;
+        public static final int any=0x7f090000;
+        public static final int back=0x7f090001;
+        public static final int barQuality=0x7f090022;
+        public static final int btnAuto=0x7f090028;
+        public static final int btnAutoFocus=0x7f090005;
+        public static final int btnController=0x7f090026;
+        public static final int btnIOIO=0x7f090025;
+        public static final int btnPhotoSnap=0x7f090006;
+        public static final int button=0x7f09000a;
+        public static final int button2=0x7f090015;
+        public static final int buttonConnect=0x7f09000e;
+        public static final int buttonDown=0x7f09001c;
+        public static final int buttonDownLeft=0x7f09001b;
+        public static final int buttonDownRight=0x7f09001d;
+        public static final int buttonLeft=0x7f090019;
+        public static final int buttonOK=0x7f090023;
+        public static final int buttonRight=0x7f09001a;
+        public static final int buttonSize=0x7f09001f;
+        public static final int buttonUp=0x7f090017;
+        public static final int buttonUpLeft=0x7f090016;
+        public static final int buttonUpRight=0x7f090018;
+        public static final int cbFlash=0x7f090007;
+        public static final int color_blob_detection_activity_surface_view=0x7f090027;
+        public static final int etxtIP=0x7f09000c;
+        public static final int etxtPass=0x7f09000d;
+        public static final int front=0x7f090002;
+        public static final int imagePreview=0x7f090014;
+        public static final int imageSplash=0x7f09002c;
+        public static final int imageView1=0x7f090003;
+        public static final int layout=0x7f090020;
+        public static final int layoutPreview=0x7f090010;
+        public static final int layout_joystick=0x7f090008;
+        public static final int layout_joystick2=0x7f090009;
+        public static final int linearLayout1=0x7f090004;
+        public static final int listSize=0x7f09000f;
+        public static final int menu_settings=0x7f09002d;
+        public static final int preview=0x7f090011;
+        public static final int sonar1=0x7f090029;
+        public static final int sonar2=0x7f09002a;
+        public static final int sonar3=0x7f09002b;
+        public static final int textView1=0x7f09000b;
+        public static final int txt1=0x7f090024;
+        public static final int txtIP=0x7f090012;
+        public static final int txtQuality=0x7f090021;
+        public static final int txtSpeed=0x7f090013;
     }
     public static final class layout {
         public static final int controller=0x7f030000;
@@ -155,7 +191,8 @@ public final class R {
         public static final int ioio_connection=0x7f030004;
         public static final int listview_simple_row=0x7f030005;
         public static final int main=0x7f030006;
-        public static final int splashscreen=0x7f030007;
+        public static final int main1=0x7f030007;
+        public static final int splashscreen=0x7f030008;
     }
     public static final class menu {
         public static final int main=0x7f080000;
@@ -181,4 +218,59 @@ public final class R {
         public static final int accessory_filter=0x7f040000;
         public static final int device_filter=0x7f040001;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a CameraBridgeViewBase.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CameraBridgeViewBase_camera_id abr.teleop:camera_id}</code></td><td></td></tr>
+           <tr><td><code>{@link #CameraBridgeViewBase_show_fps abr.teleop:show_fps}</code></td><td></td></tr>
+           </table>
+           @see #CameraBridgeViewBase_camera_id
+           @see #CameraBridgeViewBase_show_fps
+         */
+        public static final int[] CameraBridgeViewBase = {
+            0x7f010000, 0x7f010001
+        };
+        /**
+          <p>This symbol is the offset where the {@link abr.teleop.R.attr#camera_id}
+          attribute's value can be found in the {@link #CameraBridgeViewBase} array.
+
+
+          <p>May be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>any</code></td><td>-1</td><td></td></tr>
+<tr><td><code>back</code></td><td>99</td><td></td></tr>
+<tr><td><code>front</code></td><td>98</td><td></td></tr>
+</table>
+          @attr name abr.teleop:camera_id
+        */
+        public static final int CameraBridgeViewBase_camera_id = 1;
+        /**
+          <p>This symbol is the offset where the {@link abr.teleop.R.attr#show_fps}
+          attribute's value can be found in the {@link #CameraBridgeViewBase} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name abr.teleop:show_fps
+        */
+        public static final int CameraBridgeViewBase_show_fps = 0;
+    };
 }

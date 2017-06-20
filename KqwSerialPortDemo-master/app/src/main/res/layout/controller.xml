@@ -26,7 +26,7 @@
             android:layout_width="@dimen/command_button_size"
             android:layout_height="@dimen/command_button_size"
             android:layout_margin="@dimen/command_button_margin"
-            android:background="@drawable/image_button"
+            android:background="@drawable/button_auto_off"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true" />
 
@@ -51,14 +51,6 @@
             android:layout_margin="@dimen/command_button_margin"
             android:background="@drawable/checkbox_flash"
             android:button="@null" />
-
-        <com.ant.liao.GifView
-            android:id="@+id/gif2"
-            android:layout_width="52dp"
-            android:layout_height="45dp"
-            android:layout_alignParentBottom="true"
-            android:layout_gravity="center_horizontal|center_vertical"
-            android:layout_weight="0.81" />
 
     </LinearLayout>
 

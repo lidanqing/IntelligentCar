@@ -9,6 +9,7 @@ import android.hardware.Camera;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
@@ -26,8 +27,10 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
+import ioio.lib.api.exception.ConnectionLostException;
 
-public class Main extends /*SerialPort*/Activity {
+
+public class Main extends SerialPortActivity {
 	EditText etxtIP, etxtPass;
 	Spinner spinnerSize;
 	SeekBar barQuality;
@@ -42,6 +45,7 @@ public class Main extends /*SerialPort*/Activity {
 
     Camera mCamera;
 	int cameraSize = 0;
+	int count = 0;
 	
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -105,14 +109,40 @@ public class Main extends /*SerialPort*/Activity {
 		});	        
 	}
 
-	/*@Override
+	@Override
 	protected void onDataReceived(final byte[] buffer, final int size) {
 		runOnUiThread(new Runnable() {
 			@Override
 			public void run() {
-				String kk=new String(buffer);
-				Toast.makeText(mApplication, "收到消息：" + " "+kk+" " +"  size = " + size, Toast.LENGTH_SHORT).show();
+
+				String kk=new String(buffer).substring(0,size);
+				//Toast.makeText(mApplication, "收到消息：" + " "+kk+" " +"  size = " + size, Toast.LENGTH_SHORT).show();
+				Log.e("receive data",kk);
+				count++;
+				if(count > 4) {
+					String[] str = kk.split("\\|");
+					for(String s : str) {
+						Log.e("str",s );
+					}
+
+					IOIOu.wendu = str[0];
+					Log.e("wendu",IOIOu.wendu );
+					IOIOu.qiya = str[1];
+					IOIOu.haiba = str[2];
+					IOIOu.shidu = str[3];
+					IOIOu.qiti = str[4];
+					IOIOu.guangqiang = str[5];
+					if(count > 10) {
+						if (Float.parseFloat(IOIOu.guangqiang) < 50) {
+							try {
+								IOIO_thread.led.write(true);
+							} catch (ConnectionLostException e) {
+								e.printStackTrace();
+							}
+						}
+					}
+				}
 			}
 		});
-	}*/
+	}
 }

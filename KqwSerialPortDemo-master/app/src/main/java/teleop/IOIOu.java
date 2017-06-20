@@ -45,6 +45,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
+import ioio.lib.api.exception.ConnectionLostException;
 import ioio.lib.util.IOIOLooper;
 import ioio.lib.util.IOIOLooperProvider;
 import ioio.lib.util.android.IOIOAndroidApplicationHelper;
@@ -101,11 +102,23 @@ public class IOIOu extends Activity implements Callback, PreviewCallback, Pictur
 	int[] rgbs;
 	boolean initialed = false;
 
-	String wendu = "19";
-	String tempra = "t" + wendu;
+	public static String wendu = null;
+	String tempra = null;
 
-	String shidu = "31";
-	String humidity = "h" + shidu;
+	public static String shidu = null;
+	String humidity = null;
+
+	public static String haiba = null;
+	String altitude = null;
+
+	public static String guangqiang = null;
+	String light = null;
+
+	public static String qiti = null;
+	String gas = null;
+
+	public static String qiya = null;
+	String pressure = null;
 
 	private final IOIOAndroidApplicationHelper helper_ = new IOIOAndroidApplicationHelper(this, this);
 	//ToggleButton toggleButton_;
@@ -224,15 +237,25 @@ public class IOIOu extends Activity implements Callback, PreviewCallback, Pictur
 				Log.e("Check", "111");
 				Log.e("Check", msg.obj.toString());
 				Log.e("Check", "111");
-				if(params.getSupportedFlashModes() != null) {
+				//if(params.getSupportedFlashModes() != null) {
 					if(msg.obj.toString().equals("LEDON")) {
-						params.setFlashMode(Parameters.FLASH_MODE_TORCH);
+						//params.setFlashMode(Parameters.FLASH_MODE_TORCH);
+						try {
+							IOIO_thread.led.write(true);
+						} catch (ConnectionLostException e) {
+							e.printStackTrace();
+						}
 					} else if(msg.obj.toString().equals("LEDOFF")) {
-						params.setFlashMode(Parameters.FLASH_MODE_OFF);
+						//params.setFlashMode(Parameters.FLASH_MODE_OFF);
+						try {
+							IOIO_thread.led.write(false);
+						} catch (ConnectionLostException e) {
+							e.printStackTrace();
+						}
 					}
-				} else {
+				/*} else {
 					sendString("NoFlash");
-				}
+				}*/
 				mCamera.setParameters(params);
 			} else if(command == IOIOService.MESSAGE_SNAP) {
 				if((int)(System.currentTimeMillis() / 1000) - startTime > 1) {
@@ -278,6 +301,7 @@ public class IOIOu extends Activity implements Callback, PreviewCallback, Pictur
 				try {
 					out = ((Socket)msg.obj).getOutputStream();
 					dos = new DataOutputStream(out);
+					tempra = "t" + wendu;
 					sendString(tempra);
 					Log.e(TAG_IOIO, "Tempera");
 				} catch (IOException e) {
@@ -289,8 +313,57 @@ public class IOIOu extends Activity implements Callback, PreviewCallback, Pictur
 				try {
 					out = ((Socket)msg.obj).getOutputStream();
 					dos = new DataOutputStream(out);
+					humidity = "h" + shidu;
 					sendString(humidity);
 					Log.e(TAG_IOIO, "Humidity");
+				} catch (IOException e) {
+					Log.e(TAG_IOIO, e.toString());
+				}
+			}
+			else if(command == IOIOService.MESSAGE_GAS)
+			{
+				try {
+					out = ((Socket)msg.obj).getOutputStream();
+					dos = new DataOutputStream(out);
+					gas = "g" + qiti;
+					sendString(gas);
+					Log.e(TAG_IOIO, "Gas");
+				} catch (IOException e) {
+					Log.e(TAG_IOIO, e.toString());
+				}
+			}
+			else if(command == IOIOService.MESSAGE_ALTITUDE)
+			{
+				try {
+					out = ((Socket)msg.obj).getOutputStream();
+					dos = new DataOutputStream(out);
+					altitude = "a" + haiba;
+					sendString(altitude);
+					Log.e(TAG_IOIO, "Altitude");
+				} catch (IOException e) {
+					Log.e(TAG_IOIO, e.toString());
+				}
+			}
+			else if(command == IOIOService.MESSAGE_LIGHT)
+			{
+				try {
+					out = ((Socket)msg.obj).getOutputStream();
+					dos = new DataOutputStream(out);
+					light = "l" + guangqiang;
+					sendString(light);
+					Log.e(TAG_IOIO, "Light：。。。。。。。。。。。。。" + light);
+				} catch (IOException e) {
+					Log.e(TAG_IOIO, e.toString());
+				}
+			}
+			else if(command == IOIOService.MESSAGE_PRESSURE)
+			{
+				try {
+					out = ((Socket)msg.obj).getOutputStream();
+					dos = new DataOutputStream(out);
+					pressure = "p" + qiya;
+					sendString(pressure);
+					Log.e(TAG_IOIO, "Pressure");
 				} catch (IOException e) {
 					Log.e(TAG_IOIO, e.toString());
 				}

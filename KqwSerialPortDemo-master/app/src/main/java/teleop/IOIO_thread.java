@@ -17,7 +17,7 @@ public class IOIO_thread extends BaseIOIOLooper
 {
     private AnalogInput input_;
     private PwmOutput pwmOutput_;
-    private DigitalOutput led_;
+    public static DigitalOutput led;
     IOIOu the_gui;					// reference to the main activity
     PwmOutput speed, steering, pan, tilt;
 
@@ -32,7 +32,7 @@ public class IOIO_thread extends BaseIOIOLooper
         try {
             input_ = ioio_.openAnalogInput(40);
             pwmOutput_ = ioio_.openPwmOutput(7, 100);
-            led_ = ioio_.openDigitalOutput(IOIO.LED_PIN, true);
+            led = ioio_.openDigitalOutput(9, false);
 
             //the_gui.enableUi(true);
             IOIOu.pwm_speed = IOIOu.DEFAULT_PWM;
